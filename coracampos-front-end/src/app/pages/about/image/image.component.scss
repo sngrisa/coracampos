@@ -1,0 +1,17 @@
+img {
+    max-width: 100%;
+  height: auto;
+    vertical-align: middle;
+    border-style: none;
+    object-fit: cover;
+    opacity: 0.5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media (max-width: 991px) {
+    .about-avatar {
+        margin-top: 30px;
+    }
+}

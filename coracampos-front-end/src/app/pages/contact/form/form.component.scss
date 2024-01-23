@@ -1,0 +1,178 @@
+form {
+    padding-top: 20px !important;
+}
+
+textarea {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+label {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 800;
+    cursor: pointer;
+    filter: drop-shadow(0 0 0.75rem gray) !important;
+}
+
+input {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    background: #e6e6e6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #666;
+    border-radius: 25px;
+    padding: 0 30px;
+    height: 50px;
+    filter: drop-shadow(0 0 0.60rem gainsboro);
+}
+
+textarea {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    background: #e6e6e6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #666;
+    min-height: 100px;
+    border-radius: 25px;
+    padding: 12px 30px;
+    resize: none;
+    filter: drop-shadow(0 0 0.60rem gainsboro);
+}
+
+.alert{
+    filter: drop-shadow(0 0 0.50rem gainsboro);
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.btn{
+    filter: drop-shadow(0 0 0.70rem gainsboro);
+}
+
+.btn:hover{
+    background-color: lightgreen;
+}
+
+.shadow{
+    border-radius: 25px;
+    -webkit-animation: anim-shadow 0.5s ease-in-out forwards;
+    animation: anim-shadow 0.5s ease-in-out forwards;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    filter: drop-shadow(0 0 0.75rem gray);
+}
+
+h6 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+}
+
+textarea:focus,
+input:focus {
+    border-color: transparent !important;
+}
+
+input::-webkit-input-placeholder {
+    color: #999;
+}
+
+input:-moz-placeholder {
+    color: #999;
+}
+
+input:-ms-input-placeholder {
+    color: #999;
+}
+
+textarea::-webkit-input-placeholder {
+    color: #999;
+}
+
+textarea:-moz-placeholder {
+    color: #999;
+}
+
+textarea::-moz-placeholder {
+    color: #999;
+}
+textarea:-ms-input-placeholder {
+    color: #999;
+}
+
+.title {
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: #333;
+    line-height: 1.0;
+    text-align: center;
+    padding-bottom: 44px;
+}
+
+
+/* 
+
+.validate-input {
+    position: relative;
+}
+
+.alert-validate::before {
+    content: attr(data-validate);
+    position: absolute;
+    max-width: 70%;
+    background-color: #fff;
+    border: 1px solid #c80000;
+    border-radius: 13px;
+    padding: 4px 25px 4px 10px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 8px;
+    pointer-events: none;
+    font-family: Montserrat-Medium;
+    color: #c80000;
+    font-size: 13px;
+    line-height: 1.4;
+    text-align: left;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity 0.4s;
+    -o-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+}
+.alert-validate::after {
+    content: "\f06a";
+    font-family: FontAwesome;
+    display: block;
+    position: absolute;
+    color: #c80000;
+    font-size: 15px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 13px;
+}
+.alert-validate:hover:before {
+    visibility: visible;
+    opacity: 1;
+} */
