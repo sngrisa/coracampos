@@ -1,25 +1,32 @@
-<div class="swiper-slide carousel-item-a intro-item bg-image"
-    [ngStyle]="{'background-image': 'url(' + itemCarrousel.background + ')'}">
-    <div class="overlay overlay-a"></div>
-    <div class="intro-content display-table">
-        <div class="table-cell">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8">
-                        <div class="intro-body">
-                            <h1 class="intro-title mb-4 ">
-                                <span class="text-white">{{itemCarrousel.title}}</span> 
-                            </h1>
-                            <h5 class="text-white">
-                                {{itemCarrousel.desc | uppercase}}
-                            </h5>
-                            <p class="intro-subtitle intro-price">
-                                <a href="#"><span class="price-a"><i class="bi bi-info-square-fill"></i>{{itemCarrousel.textButton}}</span></a>
-                            </p>
+<div class="intro intro-carousel swiper position-relative ">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide carousel-item-a intro-item bg-image"
+            [ngStyle]="{'background-image': 'url(' + itemCarrousel.background + ')'}"
+            *ngFor="let itemCarrousel of itemsCarrousel">
+            <div class="overlay overlay-a"></div>
+            <div class="intro-content display-table">
+                <div class="table-cell">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div class="intro-body">
+                                    <h1 class="intro-title mb-4 ">
+                                        <span class="text-success text-title">{{itemCarrousel.title}}</span>
+                                    </h1>
+                                    <h5 class="text-white text-subtitle">
+                                        {{itemCarrousel.textdesc | uppercase}}
+                                    </h5>
+                                    <p class="intro-subtitle intro-price">
+                                        <a href="#"><span class="price-a btn btn-outline-success"><i
+                                                    class="bi bi-info-square-fill mr-2"></i>{{itemCarrousel.textButton}}</span></a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="swiper-pagination"></div>
         </div>
     </div>
 </div>

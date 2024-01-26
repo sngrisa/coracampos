@@ -13,9 +13,26 @@
     transition: 0.3s;
 }
 
-
-
 .carousel-pagination {
     margin-top: 10px;
     text-align: center;
+}
+
+.carousel-pagination .swiper-pagination-bullet-active {
+    background-color: #2eca6a;
+    width: 36px;
+}
+
+.text-title{
+    text-shadow: 10px 10px 10px black;
+}
+
+.text-subtitle{
+    text-shadow: 10px 10px 10px black;
+}
+
+.btn:hover{
+    background-color: whitesmoke;
+    color: black;
+    font-weight: 700;
 }
