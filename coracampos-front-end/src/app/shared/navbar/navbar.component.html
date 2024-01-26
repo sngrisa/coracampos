@@ -1,20 +1,30 @@
-<nav class="navbar navbar-expand-lg navbar-light shadow-sm bg-dark fixed-top">
-    <div class="container"> <a class="navbar-brand d-flex align-items-center" [routerLink]="['/home']">
-        <app-logo></app-logo>
-        </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
-            data-target="#navbar4">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+<nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top bg-dark">
+    <div class="container">
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <a class="navbar-brand text-brand" href="index.html"><app-logo-navbar></app-logo-navbar></a>
 
-        <div class="collapse navbar-collapse" id="navbar4">
-            <ul class="navbar-nav mr-auto pl-lg-4">
-                <app-items-navbar *ngFor="let itemNavbar of itemsNavbar; let i = index"
-                    [itemNavbar]="itemNavbar"></app-items-navbar>
-            </ul>
-            <ul class="navbar-nav ml-auto mt-3 mt-lg-0">
-                <app-items-social-navbar *ngFor="let itemSocial of itemsSocial; let i = index"
-                    [itemSocial]="itemSocial"></app-items-social-navbar>
-            </ul>
-        </div>
+      <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
+        <ul class="navbar-nav">
+          <app-items-navbar *ngFor="let itemNavbar of itemsNavbar" [itemNavbar]="itemNavbar"></app-items-navbar>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item " href="property-single.html">Property Single</a>
+              <a class="dropdown-item " href="blog-single.html">Blog Single</a>
+              <a class="dropdown-item " href="agents-grid.html">Agents Grid</a>
+              <a class="dropdown-item " href="agent-single.html">Agent Single</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <button type="button" class="btn btn-b-n navbar-toggle-box navbar-toggle-box-collapse" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01">
+        <i class="bi bi-search"></i>
+      </button>
+
     </div>
-</nav>
+  </nav>

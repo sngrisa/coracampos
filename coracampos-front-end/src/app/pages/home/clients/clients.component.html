@@ -1,0 +1,25 @@
+<section class="section-testimonials section-t8 nav-arrow-a">
+    <div class="container text-center">
+        <div class="title-wrap text-center">
+            <div class="title-box">
+                <h2><i class="bi bi-people-fill text-success mr-2"></i>{{title | uppercase}}</h2>
+            </div>
+        </div>
+        <div class="row">
+            
+            <div class="col-md-12">
+                
+            </div>
+        </div>
+        <div id="testimonial-carousel" class="swiper">
+            <div class="swiper-wrapper">
+                <div class="carousel-item-a swiper-slide" *ngFor="let client of clientTestimonials">
+                    <div class="testimonials-box">
+                        <app-client [client]="client"></app-client>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-carousel-pagination carousel-pagination"></div>
+    </div>
+</section>

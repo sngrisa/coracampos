@@ -1,12 +1,15 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
-import { ItemsNavbarComponent } from './navbar/items-navbar/items-navbar.component';
-import { ItemsSocialNavbarComponent } from './navbar/items-social-navbar/items-social-navbar.component';
 import { RouterModule } from '@angular/router';
-import { LogoComponent } from './navbar/logo/logo.component';
+import { ItemsNavbarComponent } from './navbar/items-navbar/items-navbar.component';
+import { LogoNavbarComponent } from './navbar/logoNavbar/logoNavbar.component';
+import { ContactDetailsComponent } from './footer/contact-details/contact-details.component';
+import { DetailsComponent } from './footer/contact-details/details/details.component';
 import { MenuItemsComponent } from './footer/menu-items/menu-items.component';
+import { LogoFooterComponent } from './footer/logoFooter/logo-footer.component';
+
 
 
 
@@ -15,9 +18,11 @@ import { MenuItemsComponent } from './footer/menu-items/menu-items.component';
     NavbarComponent,
     FooterComponent,
     ItemsNavbarComponent,
-    ItemsSocialNavbarComponent,
-    LogoComponent,
-    MenuItemsComponent
+    LogoNavbarComponent,
+    ContactDetailsComponent,
+    DetailsComponent,
+    MenuItemsComponent,
+    LogoFooterComponent
   ],
   imports: [
     CommonModule,
@@ -25,7 +30,11 @@ import { MenuItemsComponent } from './footer/menu-items/menu-items.component';
   ],
   exports: [
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    ContactDetailsComponent
+  ],
+  schemas: [
+    CUSTOM_ELEMENTS_SCHEMA
   ]
 })
 export class SharedModule { }

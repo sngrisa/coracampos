@@ -1,0 +1,45 @@
+.text-services{
+    font-family: "Poppins", sans-serif;
+	color: #555555;
+    font-weight: 500;
+}
+
+.hover-scale,
+.hover-scale:hover {
+    transition: transform 0.2s ease-in;
+}
+
+.pb-6,
+.py-6 {
+    padding-bottom: 3.75rem !important;
+}
+.pt-6,
+.py-6 {
+    padding-top: 3.75rem !important;
+}
+
+.box{
+    size: 512px !important;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .4rem;
+    height: 200px !important;
+    box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
+    cursor: pointer;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    font-weight: 600;
+}

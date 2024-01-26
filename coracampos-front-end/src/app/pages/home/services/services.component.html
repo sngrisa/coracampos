@@ -1,0 +1,13 @@
+<section class="section-services section-t8">
+    <div class="container">
+        <div class="title-box text-center">
+            <h3 class="title-a"><i class="bi bi-window-stack text-success"></i> Nuestra Visión</h3>
+            <p class="text-services">SER REFERENTES EN CONSULTORIA RURAL Y URBANA PARA TODO EL NORTE DEL PAIS. </p>
+        </div>
+        <div class="row mb-5">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-4 text-center" *ngFor="let service of services">
+                <app-service [service]="service"></app-service>
+            </div>
+        </div>
+    </div>
+</section>

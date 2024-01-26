@@ -1,0 +1,25 @@
+.box{
+    size: 512px !important;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .4rem;
+    height: 200px !important;
+    box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
+    cursor: pointer;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    font-weight: 600;
+}

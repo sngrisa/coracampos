@@ -1,5 +1,5 @@
-<div class="col-md-2">
-    <h6 class="text-uppercase font-weight-bold">
-      <a [routerLink]="itemMenu.url" class="text-white"><i [class]="itemMenu.icon"></i></a>
-    </h6>
-  </div>
+<li class="item-list-a">
+  <a [routerLink]="itemMenu.url">
+    <i [class]="itemMenu.icon"></i> <span>{{itemMenu.name}}</span>
+  </a>
+</li>
