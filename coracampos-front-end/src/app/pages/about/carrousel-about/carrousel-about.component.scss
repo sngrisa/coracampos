@@ -1,0 +1,35 @@
+[class^="number-slide"],
+[class*=" number-slide"] {
+  background: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 500;
+  height: 300px;
+  max-height: 100vh;
+}
+
+.number-slide1 {
+    background: url("./../../../../assets/carrousel/Image1.jpeg");
+}
+
+.number-slide2 {
+    background: url("./../../../../assets/carrousel/Image2.jpeg");
+}
+
+.number-slide3 {
+    background: url("./../../../../assets/carrousel/Image3.jpeg");
+}
+
+.number-slide4 {
+    background: url("./../../../../assets/carrousel/Image4.jpeg");
+}
+
+.number-slide5 {
+    background: url("./../../../../assets/carrousel/Image5.jpeg");
+}
+.number-slide6 {
+    background: url("./../../../../assets/carrousel/Image6.jpg");
+}

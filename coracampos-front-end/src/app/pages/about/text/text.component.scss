@@ -1,49 +1,6 @@
-.about-text h3 {
-    font-size: 45px;
-    font-weight: 700;
-    margin: 0 0 6px;
-}
 
-.about-text h6 {
-    font-weight: 600;
-    margin-bottom: 15px;
-}
-
-.about-text p {
+.color-text-a{
+    padding-bottom: 5%;
     font-size: 18px;
-    max-width: 450px;
-}
-.about-text p mark {
-    font-weight: 600;
-    color: #20247b;
-}
-
-@media (max-width: 767px) {
-    .about-text h3 {
-        font-size: 35px;
-    }
-}
-
-@media (max-width: 767px) {
-    .about-text h6 {
-        font-size: 18px;
-    }
-}
-
-.theme-color {
-    color: #fc5356;
-}
-
-.dark-color {
-    color: #20247b;
-}
-
-mark {
-    background-image: linear-gradient(rgba(252, 83, 86, 0.6), rgba(252, 83, 86, 0.6));
-    background-size: 100% 3px;
-    background-repeat: no-repeat;
-    background-position: 0 bottom;
-    background-color: transparent;
-    padding: 0;
-    color: currentColor;
+    text-align: center;
 }
