@@ -1,46 +1,28 @@
-<form autocapitalize="off" autocomplete="off" [formGroup]="formContact" class="contact1-form validate-form" (ngSubmit)="sendEmail()">
-    <h2 class="text-center title"><i class="bi bi-question-octagon-fill text-primary"></i> ¿Estas buscando invertir? ¡Hablemos!</h2>
-    <h6 class="text-center alert alert-info pt-3 pb-6 contact1-form-title"><i class="bi bi-info-circle-fill"></i> Comentanos ¿Qué tipo de
-        propiedad está buscando? <i class="bi bi-info-circle-fill"></i></h6>
-    <div class="row mt-3">
-        <div class="col text-center validate-input">
-            <label for="nombre"><i class="bi bi-cursor-text"></i> Nombre:</label>
-            <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required class="form-control input1"
-                formControlName="nombre" />
-                <span class="shadow"></span>
+<form method="post" role="form" class="php-email-form" (submit)="sendEmail()" [formGroup]="formContact">
+    <div class="row">
+      <div class="col-md-6 mb-3">
+        <div class="form-group">
+          <input type="text" name="nombre" class="form-control form-control-lg form-control-a" placeholder="Escriba su nombre" required id="nombre" formControlName="nombre">
         </div>
-        <div class="col text-center validate-input">
-            <label for="apellido"><i class="bi bi-hash"></i> Apellido:</label>
-            <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido" required
-                class="form-control input1" formControlName="apellido" />
-                <span class="shadow"></span>
+      </div>
+      <div class="col-md-6 mb-3">
+        <div class="form-group">
+          <input name="email" type="email" class="form-control form-control-lg form-control-a" placeholder="Escriba su email" required id="email" formControlName="email">
         </div>
-    </div>
-    <div class="row mt-3">
-        <div class="col text-center validate-input">
-            <label for="email"><i class="bi bi-envelope-at"></i> Email:</label>
-            <input type="email" name="email" id="email" placeholder="Ingrese su email" required class="form-control input1"
-                formControlName="email" />
-                <span class="shadow"></span>
+      </div>
+      <div class="col-md-12 mb-3">
+        <div class="form-group">
+          <input type="text" name="asunto" class="form-control form-control-lg form-control-a" placeholder="Escriba el asunto" required formControlName="asunto" id="asunto">
         </div>
-        <div class="col text-center">
-            <label for="telefono"><i class="bi bi-telephone"></i> Numero de telefono:</label>
-            <input type="text" name="telefono" id="telefono" placeholder="Ingrese su telefono" required
-                class="form-control input1" formControlName="telefono" />
-                <span class="shadow"></span>
+      </div>
+      <div class="col-md-12">
+        <div class="form-group">
+          <textarea name="descripcionConsulta" class="form-control" name="message" cols="45" rows="8" placeholder="Escriba su el detalle de su consulta" required id="descripcionConsulta" formControlName="descripcionConsulta"></textarea>
         </div>
+      </div>
+
+      <div class="col-md-12 text-center">
+        <button type="submit" class="btn btn-a" (click)="sendEmail()"><i class="bi bi-send-fill mr-2"></i> Enviar consulta</button>
+      </div>
     </div>
-    <div class="text-center mt-3 mb-3">
-        <label for="asunto"><i class="bi bi-chat-right-text-fill"></i> Asunto:</label>
-        <input name="asunto" id="asunto" type="text" placeholder="Ingrese el asunto de su consulta" required
-            formControlName="asunto" class="form-control input1" />
-            <span class="shadow"></span>
-    </div>
-    <div class="text-center mt-3">
-        <label for="descripcionConsulta"><i class="bi bi-file-earmark-text-fill"></i> Descripcion de la consulta:</label>
-        <textarea name="descripcionConsulta" id="descripcionConsulta" required class="form-control input1"
-            formControlName="descripcionConsulta"></textarea>
-            <span class="shadow"></span>
-    </div>
-    <button class="btn btn-success btn-block mt-3" type="submit"><i class="bi bi-forward-fill"></i> Enviar Consulta</button>
-</form>
+  </form>

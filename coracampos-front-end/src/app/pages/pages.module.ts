@@ -6,7 +6,6 @@ import { ContactComponent } from './contact/contact.component';
 import { TextComponent } from './about/text/text.component';
 import { FormComponent } from './contact/form/form.component';
 import { ReactiveFormsModule } from '@angular/forms';
-import { ImageContactComponent } from './contact/image/imageContact.component';
 import { ImageComponent } from './about/image/image.component';
 import { NewsComponent } from './home/news/news.component';
 import { NewComponent } from './home/news/new/new.component';
@@ -19,6 +18,13 @@ import { ItemCarrouselComponent } from './home/carrousel/item-carrousel/item-car
 import { IntroAboutComponent } from './about/intro-about/intro-about.component';
 import { CarrouselAboutComponent } from './about/carrousel-about/carrousel-about.component';
 import { RouterModule } from '@angular/router';
+import { DetailsCoraComponent } from './contact/details-cora/details-cora.component';
+import { MapCoraComponent } from './contact/map-cora/map-cora.component';
+import { TextCoraComponent } from './contact/text-cora/text-cora.component';
+import { SocialItemsComponent } from './contact/details-cora/social-items/social-items.component';
+import { PropertiesComponent } from './properties/properties.component';
+import { GridPropertiesComponent } from './properties/grid-properties/grid-properties.component';
+import { CardPropertyComponent } from './properties/card-property/card-property.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +33,6 @@ import { RouterModule } from '@angular/router';
     ContactComponent,
     TextComponent,
     ImageComponent,
-    ImageContactComponent,
     FormComponent,
     NewsComponent,
     NewComponent,
@@ -39,6 +44,13 @@ import { RouterModule } from '@angular/router';
     ItemCarrouselComponent,
     IntroAboutComponent,
     CarrouselAboutComponent,
+    DetailsCoraComponent,
+    MapCoraComponent,
+    TextCoraComponent,
+    SocialItemsComponent,
+    PropertiesComponent,
+    GridPropertiesComponent,
+    CardPropertyComponent,
   ],
   imports: [
     CommonModule,

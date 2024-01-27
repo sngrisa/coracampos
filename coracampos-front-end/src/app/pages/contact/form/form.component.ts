@@ -13,9 +13,7 @@ export class FormComponent {
 
   formContact: FormGroup = this.fb.group({
     nombre: ["", [Validators.required, Validators.minLength(5)],],
-    apellido: ["", [Validators.required, Validators.minLength(5)],],
     email: ["", [Validators.required, Validators.email],],
-    telefono: ["", [Validators.required, Validators.minLength(6)],],
     asunto: ["", [Validators.required, Validators.minLength(5)],],
     descripcionConsulta: ["", [Validators.required, Validators.minLength(5)],]
   })
@@ -28,7 +26,6 @@ export class FormComponent {
     this.getNotification();
     this.formContact.reset({
       nombre: "",
-      apellido: "",
       email: "",
       asunto: "",
       descripcionConsulta: "",
@@ -42,8 +39,8 @@ export class FormComponent {
       title: "Tu consulta ha sido enviada con éxito",
       showConfirmButton: false,
       timer: 2500,
-      background: "gray",
-      color: "whitesmoke"
+      background: "whitesmoke",
+      color: "gray"
     });
   }
 

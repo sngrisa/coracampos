@@ -1,0 +1,61 @@
+<div class="row">
+    <div class="col-md-7">
+        <app-form></app-form>
+    </div>
+    <div class="col-md-5 section-md-t3">
+        <div class="icon-box section-b2">
+            <div class="icon-box-icon">
+                <span class="bi bi-envelope text-success"></span>
+            </div>
+            <div class="icon-box-content table-cell">
+                <div class="icon-box-title">
+                    <h4 class="icon-title">Envianos tu correo a</h4>
+                </div>
+                <div class="icon-box-content">
+                    
+                    <p class="mb-1"><i class="bi bi-envelope-at-fill mr-1 text-success"></i><span class="mr-3">Email:</span><a href="mailto:info@coracampos.com.ar" class="text-a">
+                            <span class="color-a">{{email}}</span>
+                        </a>
+                    </p>
+                    <p class="mb-1"><i class="bi bi-telephone-fill mr-1 text-success"></i><span class="mr-3">Telefono:</span><a href="https://wa.link/s6z6pa" class="text-a">
+                        <span class="color-a">{{phone}}</span>
+                    </a>
+                </p>
+                </div>
+            </div>
+        </div>
+        <div class="icon-box section-b2">
+            <div class="icon-box-icon">
+                <span class="bi bi-geo-alt text-success"></span>
+            </div>
+            <div class="icon-box-content table-cell">
+                <div class="icon-box-title">
+                    <h4 class="icon-title">Encontranos en</h4>
+                </div>
+                <div class="icon-box-content">
+                    <p class="mb-1 location-text"><a href="https://www.google.com.ar/maps/place/Av.+Roque+P%C3%A9rez+1615+4TO+PISO,+N3300MTV+Posadas,+Misiones/@-27.3617219,-55.8915773,19z/data=!4m6!3m5!1s0x9457bfcd2e7015dd:0xa3a6ccad39489780!8m2!3d-27.3617219!4d-55.8909336!16s%2Fg%2F11qp_02qfd?entry=ttu">
+                        <span class="color-a">{{address}}</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="icon-box">
+            <div class="icon-box-icon">
+                <span class="bi bi-share text-success"></span>
+            </div>
+            <div class="icon-box-content table-cell">
+                <div class="icon-box-title">
+                    <h4 class="icon-title">Redes Sociales</h4>
+                </div>
+                <div class="icon-box-content">
+                    <div class="socials-footer">
+                        <ul class="list-inline">
+                            <app-social-items *ngFor="let itemSocial of socialItems"
+                                [itemSocial]="itemSocial"></app-social-items>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
