@@ -9,7 +9,7 @@ const routes: Routes = [
   { path: "", component: HomeComponent },
   { path: "about", component: AboutComponent },
   { path: "contact", component: ContactComponent },
-  { path: "properties", component: PropertiesComponent },
+  { path: "properties", loadChildren: () => import('./pages/pages.module').then((p) => p.PagesModule) },
   { path: "**", redirectTo: "", pathMatch: 'full' }
 ];
 

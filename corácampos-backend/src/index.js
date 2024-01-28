@@ -18,11 +18,8 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use("/api/users", require("./routes/users.router"));
-app.use("/api/clients", require("./routes/clients.router"));
-app.use("/api/houses", require("./routes/houses.router"));
-app.use("/api/terrains", require("./routes/terrains.router"));
-app.use("/api/business", require("./routes/business.router"));
+app.use('/owners', require('./controllers/'));
+app.use('/properties', require('./controllers/properties.controller'));
 
 app.listen(port, () => {
   console.log(`Escuchando en puerto ${port}`);

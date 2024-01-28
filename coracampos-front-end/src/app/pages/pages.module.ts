@@ -25,6 +25,10 @@ import { SocialItemsComponent } from './contact/details-cora/social-items/social
 import { PropertiesComponent } from './properties/properties.component';
 import { GridPropertiesComponent } from './properties/grid-properties/grid-properties.component';
 import { CardPropertyComponent } from './properties/card-property/card-property.component';
+import { PropertyService } from './properties/services/property.service';
+import { PropertyComponent } from './properties/property/property.component';
+import { PropertyDetailsComponent } from './properties/property/property-details/property-details.component';
+import { AppPropertyRoutingModule } from './properties/app-propertyRouting.module';
 
 @NgModule({
   declarations: [
@@ -51,13 +55,19 @@ import { CardPropertyComponent } from './properties/card-property/card-property.
     PropertiesComponent,
     GridPropertiesComponent,
     CardPropertyComponent,
+    PropertyComponent,
+    PropertyDetailsComponent,
   ],
   imports: [
     CommonModule,
     ReactiveFormsModule,
-    RouterModule
+    RouterModule,
+    AppPropertyRoutingModule
   ],
-  exports:[
+  providers: [
+    PropertyService
+  ],
+  exports: [
     AboutComponent
   ]
 })

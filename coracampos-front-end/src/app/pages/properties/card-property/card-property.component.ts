@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Property } from '../interfaces/property.interface';
 
 @Component({
   selector: 'app-card-property',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './card-property.component.scss'
 })
 export class CardPropertyComponent {
+
+  @Input() property!: Property;
 
 }
