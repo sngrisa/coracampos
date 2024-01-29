@@ -8,7 +8,7 @@ import { Property } from "../interfaces/property.interface";
 })
 export class PropertyService {
 
-    url: string = "https://fakestoreapi.com/products";
+    url: string = "./property/data/properties.json";
 
     constructor(private http: HttpClient) { }
 

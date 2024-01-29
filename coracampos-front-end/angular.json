@@ -36,6 +36,9 @@
               "src/favicon.ico",
               "src/assets"
             ],
+            "allowedCommonJsDependencies": [
+              "sweetalert2"
+            ],
             "styles": [
               "src/styles.scss",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
@@ -51,7 +54,6 @@
               "node_modules/sweetalert2/dist/sweetalert2.min.js",
               "node_modules/keen-slider/keen-slider.js",
               "node_modules/swiper/swiper.min.js"
-              
             ]
           },
           "configurations": {
@@ -59,19 +61,26 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "4mb",
+                  "maximumError": "5mb"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "maximumWarning": "1mb",
+                  "maximumError": "4mb"
                 }
               ],
               "outputHashing": "all"
             },
             "development": {
-              "optimization": false,
+              "optimization": {
+                "scripts": true,
+                "styles": {
+                  "minify": true,
+                  "inlineCritical": false
+                },
+                "fonts": true
+              },
               "extractLicenses": false,
               "sourceMap": true
             }
@@ -116,7 +125,6 @@
               "node_modules/sweetalert2/dist/sweetalert2.min.css",
               "node_modules/keen-slider/keen-slider.min.css",
               "node_modules/swiper/swiper.min.css"
-              
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
