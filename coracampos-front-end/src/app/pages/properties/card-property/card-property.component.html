@@ -1,4 +1,4 @@
-<!-- <div class="card-box-a card-shadow">
+<div class="card-box-a card-shadow" [routerLink]="['/properties/', ''+property._id+'']">
   <div class="img-box-a">
     <img [src]="property.imgUrls[0]" [alt]="property.desc" class="img-a img-fluid">
   </div>
@@ -6,15 +6,14 @@
     <div class="card-overlay-a-content">
       <div class="card-header-a">
         <h2 class="card-title-a">
-          <a href="#">204 Mount
-            <br /> Olive Road Two</a>
+          <a href="#">{{property.title}}</a>
         </h2>
       </div>
       <div class="card-body-a">
         <div class="price-box d-flex">
           <span class="price-a">Renta | $ {{property.price}}</span>
         </div>
-        <a href="property-single.html" class="link-a">Más información
+        <a [routerLink]="['/properties/', ''+property._id+'']" class="link-a">Más información
           <span class="bi bi-chevron-right"></span>
         </a>
       </div>
@@ -22,24 +21,22 @@
         <ul class="card-info d-flex justify-content-around">
           <li>
             <h4 class="card-info-title">Area</h4>
-            <span>340m
-              <sup>2</sup>
-            </span>
+            <span>{{property.area}}</span>
           </li>
           <li>
             <h4 class="card-info-title">Dormitorios</h4>
-            <span>2</span>
+            <span>{{property.beds}}</span>
           </li>
           <li>
             <h4 class="card-info-title">Baños</h4>
-            <span>4</span>
+            <span>{{property.baths}}</span>
           </li>
           <li>
             <h4 class="card-info-title">Garage</h4>
-            <span>1</span>
+            <span>{{property.garage}}</span>
           </li>
         </ul>
       </div>
     </div>
   </div>
-</div> -->
+</div>

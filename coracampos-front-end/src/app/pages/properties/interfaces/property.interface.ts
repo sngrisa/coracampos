@@ -7,6 +7,9 @@ export interface Property {
     ambientes: number;
     type: string;
     price: number;
+    title: string;
     desc: string;
+    garage: number;
+    location: string;
     imgUrls: string[];
 }

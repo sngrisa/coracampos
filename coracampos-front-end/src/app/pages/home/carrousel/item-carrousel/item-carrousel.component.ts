@@ -15,19 +15,22 @@ export class ItemCarrouselComponent implements AfterViewInit {
       title: "¡CONOCEMOS EL VALOR DE LA TIERRA!",
       textdesc: "¿Estás buscando invertir?  ¡Tenemos varias Opciones que te van a interesar!",
       textButton: "Más información",
-      background: "./../../../../../assets/carrousel/Image1.jpeg"
+      background: "./../../../../../assets/carrousel/Image1.jpeg",
+      url: "/properties"
     },
     {
       title: "¿Estas buscando invertir?",
       textdesc: "TE AYUDAMOS A ENCONTRAR LA PROPIEDAD QUE BUSCAS",
       textButton: "Dejanos tu consulta aquí",
-      background: "./../../../../../assets/carrousel/Image2.jpeg"
+      background: "./../../../../../assets/carrousel/Image2.jpeg",
+      url: "/contact"
     },
     {
       title: "¡Publicidad PREMIUM!!",
       textdesc: "¡Con nosotros tu propiedad es visible en todo el PAÍS, contamos con publicidad PREMIUM en todos los portales!",
       textButton: "Consultenos",
-      background: "./../../../../../assets/carrousel/Image6.jpg"
+      background: "./../../../../../assets/carrousel/Image6.jpg",
+      url: "/"
     }
   ];
 

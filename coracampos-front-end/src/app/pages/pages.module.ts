@@ -29,13 +29,18 @@ import { PropertyService } from './properties/services/property.service';
 import { PropertyComponent } from './properties/property/property.component';
 import { PropertyDetailsComponent } from './properties/property/property-details/property-details.component';
 import { AppPropertyRoutingModule } from './properties/app-propertyRouting.module';
+import { CarrouselImgsComponent } from './properties/property/carrousel-imgs/carrousel-imgs.component';
+import { HeadComponent } from './properties/property/head/head.component';
+import { DetailsTechComponent } from './properties/property/details-tech/details-tech.component';
 
 @NgModule({
   declarations: [
     HomeComponent,
     AboutComponent,
+    HeadComponent,
     ContactComponent,
     TextComponent,
+    DetailsTechComponent,
     ImageComponent,
     FormComponent,
     NewsComponent,
@@ -57,6 +62,7 @@ import { AppPropertyRoutingModule } from './properties/app-propertyRouting.modul
     CardPropertyComponent,
     PropertyComponent,
     PropertyDetailsComponent,
+    CarrouselImgsComponent,
   ],
   imports: [
     CommonModule,
@@ -68,7 +74,7 @@ import { AppPropertyRoutingModule } from './properties/app-propertyRouting.modul
     PropertyService
   ],
   exports: [
-    AboutComponent
+    AboutComponent,
   ]
 })
 export class PagesModule { }

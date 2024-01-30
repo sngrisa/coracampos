@@ -3,4 +3,5 @@ export interface ItemCarrousel {
     textdesc: string;
     textButton: string;
     background: string;
+    url?: string;
 }

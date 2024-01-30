@@ -5,12 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './properties.component.html',
   styleUrl: './properties.component.scss'
 })
-export class PropertiesComponent implements OnInit {
+export class PropertiesComponent {
 
-  constructor() { }
-
-  ngOnInit(): void {
-    throw new Error('Method not implemented.');
-  }
 
 }
