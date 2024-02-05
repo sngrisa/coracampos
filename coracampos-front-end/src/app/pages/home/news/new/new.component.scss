@@ -25,6 +25,11 @@
     position: relative;
     height: 314px;
 }
+
+.col-12 .blog-info {
+    height: auto !important;
+}
+
 .blog-grid .blog-info h5 {
     font-size: 22px;
     font-weight: 500;
@@ -35,18 +40,17 @@
 }
 .blog-grid .blog-info p {
     margin: 0;
+    padding-bottom: 10px !important;
 }
 .blog-grid .blog-info .btn-bar {
     margin-top: 20px;
 }
 
-.img-new{
+.img-new {
     width: 100%;
     height: 250px !important;
 }
 
-a{
+a {
     text-decoration: none !important;
 }
-
-

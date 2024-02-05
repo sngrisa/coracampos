@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { ItemNavbar } from './interface/items.interface';
 import $ from "jquery";
 
@@ -7,11 +7,9 @@ import $ from "jquery";
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.scss'
 })
-export class NavbarComponent implements OnInit {
+export class NavbarComponent {
 
-  ngOnInit(): void {
 
-  }
 
   itemsSocial: ItemNavbar[] = [
     {
@@ -49,6 +47,10 @@ export class NavbarComponent implements OnInit {
       url: "/contact"
     },
   ];
+
+  openNav = () => {
+    (document.getElementById("mySidenav") as HTMLElement).style.width = "250px";
+  }
 
 
 }

@@ -9,6 +9,7 @@ import { ContactDetailsComponent } from './footer/contact-details/contact-detail
 import { DetailsComponent } from './footer/contact-details/details/details.component';
 import { MenuItemsComponent } from './footer/menu-items/menu-items.component';
 import { LogoFooterComponent } from './footer/logoFooter/logo-footer.component';
+import { SearchComponent } from './navbar/search/search.component';
 
 
 
@@ -22,7 +23,8 @@ import { LogoFooterComponent } from './footer/logoFooter/logo-footer.component';
     ContactDetailsComponent,
     DetailsComponent,
     MenuItemsComponent,
-    LogoFooterComponent
+    LogoFooterComponent,
+    SearchComponent
   ],
   imports: [
     CommonModule,
