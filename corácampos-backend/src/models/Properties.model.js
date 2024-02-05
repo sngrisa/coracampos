@@ -45,10 +45,10 @@ const PropertySchema = new Schema({
     type: String,
     required: true,
   },
-  title_desc:{
+  title_desc: {
     type: String,
     required: true
   },
 });
 
-module.exports = model("Property", PropertySchema);
+module.exports = model("Properties", PropertySchema);

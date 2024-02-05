@@ -1,12 +1,17 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ItemNavbar } from './interface/items.interface';
+import $ from "jquery";
 
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.scss'
 })
-export class NavbarComponent {
+export class NavbarComponent implements OnInit {
+
+  ngOnInit(): void {
+
+  }
 
   itemsSocial: ItemNavbar[] = [
     {
@@ -24,25 +29,26 @@ export class NavbarComponent {
   ];
 
 
-    itemsNavbar: ItemNavbar[] = [
-      {
-        id: "1",
-        icon: "bi bi-house",
-        name: "Inicio",
-        url: "/home"
-      },
-      {
-        id: "2",
-        icon: "bi bi-book",
-        name: "Nosotros",
-        url: "/about"
-      },
-      {
-        id: "3",
-        icon: "bi bi-info-square",
-        name: "Contacto",
-        url: "/contact"
-      },
+  itemsNavbar: ItemNavbar[] = [
+    {
+      id: "1",
+      icon: "bi bi-house",
+      name: "Inicio",
+      url: "/home"
+    },
+    {
+      id: "2",
+      icon: "bi bi-book",
+      name: "Nosotros",
+      url: "/about"
+    },
+    {
+      id: "3",
+      icon: "bi bi-info-square",
+      name: "Contacto",
+      url: "/contact"
+    },
   ];
+
 
 }

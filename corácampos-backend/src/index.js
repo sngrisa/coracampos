@@ -18,8 +18,8 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use('/owners', require('./controllers/'));
-app.use('/properties', require('./controllers/properties.controller'));
+app.use('/properties', require('./routes/property.router.js'));
+app.use('/users', require('./routes/users.router.js'));
 
 app.listen(port, () => {
   console.log(`Escuchando en puerto ${port}`);
