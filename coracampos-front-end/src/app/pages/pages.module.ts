@@ -32,6 +32,9 @@ import { AppPropertyRoutingModule } from './properties/app-propertyRouting.modul
 import { CarrouselImgsComponent } from './properties/property/carrousel-imgs/carrousel-imgs.component';
 import { HeadComponent } from './properties/property/head/head.component';
 import { DetailsTechComponent } from './properties/property/details-tech/details-tech.component';
+import { BiodiversityComponent } from './biodiversity/biodiversity.component';
+import { BiodiversitySingleComponent } from './biodiversity/biodiversity-single/biodiversity-single.component';
+import { CardsBioComponent } from './biodiversity/cards/cardsbio.component';
 
 @NgModule({
   declarations: [
@@ -63,6 +66,9 @@ import { DetailsTechComponent } from './properties/property/details-tech/details
     PropertyComponent,
     PropertyDetailsComponent,
     CarrouselImgsComponent,
+    BiodiversityComponent,
+    BiodiversitySingleComponent,
+    CardsBioComponent
   ],
   imports: [
     CommonModule,

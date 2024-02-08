@@ -26,11 +26,11 @@ export class ItemCarrouselComponent implements AfterViewInit {
       url: "/contact"
     },
     {
-      title: "¡Publicidad PREMIUM!!",
-      textdesc: "¡Con nosotros tu propiedad es visible en todo el PAÍS, contamos con publicidad PREMIUM en todos los portales!",
-      textButton: "Consultenos",
+      title: "¡¡Descubre nuestro compromiso con la biodiversidad!!",
+      textdesc: "¡Colaboramos con organizaciones ambientales locales para conservar y restaurar áreas naturales cercanas a nuestras propiedades, preservando así la diversidad de especies vegetales y animales.!",
+      textButton: "Más Información",
       background: "./../../../../../assets/carrousel/Image6.jpg",
-      url: "/"
+      url: "/biodiversity"
     }
   ];
 

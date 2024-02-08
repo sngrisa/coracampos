@@ -27,9 +27,15 @@ export class FooterComponent {
       url: "/contact",
       icon: "bi bi-info-square",
     },
+    {
+      id: 4,
+      icon: "bi bi-table",
+      name: "Biodiversidad",
+      url: "/biodiversity"
+    },
   ]
 
-  getYear = () =>{
+  getYear = () => {
     let data = new Date();
     return data.getFullYear();
   }

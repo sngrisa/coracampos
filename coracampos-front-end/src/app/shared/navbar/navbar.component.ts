@@ -46,6 +46,12 @@ export class NavbarComponent {
       name: "Contacto",
       url: "/contact"
     },
+    {
+      id: "4",
+      icon: "bi bi-table",
+      name: "Biodiversidad",
+      url: "/biodiversity"
+    },
   ];
 
   openNav = () => {

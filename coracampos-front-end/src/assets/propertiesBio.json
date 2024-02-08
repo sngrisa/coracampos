@@ -1,0 +1,274 @@
+[
+    {
+        "_id": 1786,
+        "area": "25 ha",
+        "super": "25 ha",
+        "title": "CERRO CORÁ, MNES",
+        "price": 90000,
+        "location": "Cerro Corá, Provincia de Misiones, República de Argentina",
+        "page": 1,
+        "desc": "La chacra está en una ubicación estratégica dentro del circuito del parque temático de la Cruz de Santa Ana, cuenta con una muy buena vegetación de árboles (árboles de estación, árboles autoctonos, frutales cítricos y los propios de la selva misionera) junto a senderos parquizados. Ideal para el emprendimiento turístico ya que contiene áreas para construcción de cabañas ya limpios y en constante mantenimiento.",
+        "imgUrls": [
+            "./../../../../assets/biodiversity/1/I.jpeg",
+            "./../../../../assets/biodiversity/1/II.jpg",
+            "./../../../../assets/biodiversity/1/III.jpg",
+            "./../../../../assets/biodiversity/1/IV.jpg",
+            "./../../../../assets/biodiversity/1/V.jpg",
+            "./../../../../assets/biodiversity/1/VI.jpg"
+        ]
+    },
+    {
+        "_id": 1310,
+        "area": "29 ha",
+        "super": "29 ha",
+        "title": "GOBERNADOR ROCA, MISIONES",
+        "price": 60000,
+        "location": "Gobernador Roca, Provincia de Misiones, República de Argentina",
+        "page": 1,
+        "desc": "La misma esta ubicada a 500 metros de la Ruta. Cuenta con 4 ha de Yerba Mate en producción y 15 ha de monte nativo.",
+        "imgUrls": [
+            "./../../../../assets/biodiversity/2/I.jpg",
+            "./../../../../assets/biodiversity/2/II.jpg",
+            "./../../../../assets/biodiversity/2/III.jpg",
+            "./../../../../assets/biodiversity/2/IV.jpg",
+            "./../../../../assets/biodiversity/2/V.jpg",
+            "./../../../../assets/biodiversity/2/VI.jpg"
+        ]
+    },
+    {
+        "_id": 999,
+        "area": "478 ha",
+        "super": "478 ha",
+        "title": "VIRASORO, CORRIENTES",
+        "price": 2000000,
+        "location": "Virasoro, Provincia de Corrientes, República de Argentina",
+        "page": 1,
+        "desc": "Terreno en el que se puede plantar, forestación, yerba, arroz, soja. Pegado al emprendimiento de arándanos.Buena disponibilidad de Agua. Alambrado perimetral y división de 6 potreros. Actualmente trabajando con ganadería y un yerbal de 25 hectáreas. Tiene casco y corrales. A pocos KM de cruce ruta 120 y ruta nacional 14",
+        "imgUrls": [
+            "./../../../../assets/biodiversity/3/I.jpg",
+            "./../../../../assets/biodiversity/3/II.jpg",
+            "./../../../../assets/biodiversity/3/III.jpg",
+            "./../../../../assets/biodiversity/3/IV.jpg",
+            "./../../../../assets/biodiversity/3/V.jpg",
+            "./../../../../assets/biodiversity/3/VI.jpg"
+        ]
+    },
+    {
+        "_id": 1019,
+        "beds": 8,
+        "baths": 7,
+        "title": "EL DORADO, MISIONES",
+        "area": "400 m²",
+        "super": "21 ha",
+        "ambientes": 0,
+        "location": "El Dorado, Provincia de Misiones, República de Argentina",
+        "price": 300000,
+        "page": 1,
+        "desc": "Chacra de 21 hectáreas con un complejo de cabañas. Construido sobre 1 hectárea, cuenta con 4 cabañas, 1 restaurante, 1 piscina y 1 casa del cuidador, y una perforación de mas de 100 metros. Todo sobre la ruta Nacional 12 a 70 Km de Iguazú. Resto de la chacra tiene 6 ha de yerba nueva en producción. y monte nativo con arroyo",
+        "imgUrls": [
+            "./../../../../assets/biodiversity/4/I.jpg",
+            "./../../../../assets/biodiversity/4/II.jpg",
+            "./../../../../assets/biodiversity/4/III.jpg",
+            "./../../../../assets/biodiversity/4/IV.jpg",
+            "./../../../../assets/biodiversity/4/V.jpg"
+        ]
+    },
+    {
+        "_id": 1377,
+        "title": "CAMPO RAMÓN, MISIONES",
+        "area": "25 ha",
+        "super": "25 ha",
+        "price": 11350,
+        "location": "Villa Bonita, Provincia de Misiones, República de Argentina",
+        "page": 1,
+        "desc": "El campo está ubicado a 12km de la ruta con acceso terrado. Cuenta con 7 has de Yerba Mate en producción, 6 has de pino y 7 has de Paraiso y de Ubeña.",
+        "imgUrls": [
+            "./../../../../assets/biodiversity/5/I.jpeg",
+            "./../../../../assets/biodiversity/5/II.jpeg",
+            "./../../../../assets/biodiversity/5/III.jpeg",
+            "./../../../../assets/biodiversity/5/IV.jpeg",
+            "./../../../../assets/biodiversity/5/V.jpeg"
+        ]
+    },
+    {
+        "_id": 1387,
+        "title": "CHACRA SAN JOSÉ, MISIONES",
+        "area": "136 has",
+        "super": "136 has",
+        "location": "San Jose, Provincia de Misiones, República de Argentina",
+        "price": 330000,
+        "page": 1,
+        "desc": "Campo con 136 hectáreas a Tranquera cerrada en San José, Misiones. Cuenta con 9 has de yerba mate, 5 has de Pino,40 has de monte nativo, un arroyo,3 piquetes para posturas,70 Cabezas de animales vacunos, corral y brete (construcción nueva),1 tractor de marca Fiat modelo 400,1 Acoplado de 2 ejes,2 Arados de disco,2 subsolador,1 Rastra,1 casa de madera y 1 de material",
+        "imgUrls": [
+            "./../../../../assets/biodiversity/6/I.jpeg",
+            "./../../../../assets/biodiversity/6/II.jpeg",
+            "./../../../../assets/biodiversity/6/III.jpeg",
+            "./../../../../assets/biodiversity/6/IV.jpeg",
+            "./../../../../assets/biodiversity/6/V.jpeg",
+            "./../../../../assets/biodiversity/6/VI.jpeg",
+            "./../../../../assets/biodiversity/6/VII.jpeg",
+            "./../../../../assets/biodiversity/6/VII.jpeg"
+        ]
+    },
+    {
+        "_id": 1400,
+        "title": "PARAJE GALARZA, CORRIENTES",
+        "area": "1063 has",
+        "super": "1063 has",
+        "location": "Paraje Galarza, Provincia de Corrientes, República de Argentina",
+        "price": 1488000,
+        "page": 1,
+        "desc": "Campo ganadero - forestal de 1063 has ubicado en Paraje Galarza, Provincia de Corrientes sobre la Ruta Provincial N°41, a 71 km de ruta Nacional N°12 y a 70 km de Virasoro, Provincia de Corrientes. El mismo posee alambrado perimetral nuevo, corrales, cascos y lagunas. Se encuentra 40% canalizado. Además lindera con el Parque Nacional Esteros Del Iberá ",
+        "imgUrls": [
+            "./../../../../assets/biodiversity/7/I.jpg",
+            "./../../../../assets/biodiversity/7/II.jpg",
+            "./../../../../assets/biodiversity/7/III.jpg",
+            "./../../../../assets/biodiversity/7/IV.jpg",
+            "./../../../../assets/biodiversity/7/V.jpg",
+            "./../../../../assets/biodiversity/7/VI.jpg",
+            "./../../../../assets/biodiversity/7/VII.jpg",
+            "./../../../../assets/biodiversity/7/VIII.jpg",
+            "./../../../../assets/biodiversity/7/IX.jpg",
+            "./../../../../assets/biodiversity/7/X.jpg"
+        ]
+    },
+    {
+        "_id": 1496,
+        "title": "BONPLAND, MISIONES",
+        "area": "12 has",
+        "super": "12 has",
+        "location": "Bonpland, Provincia de Misiones, República de Argentina",
+        "price": 100000,
+        "page": 1,
+        "desc": "Chacra sobre la Ruta 4, pegada al pueblo de Bonpland en Misiones. Cuenta con una casa de material ya construida, viene con una plantación de 6 has de Pino y 4 has de Euca clonal, posee 250 metros de ruta asfaltada, tiene 500 mts de fondo.",
+        "imgUrls": [
+            "./../../../../assets/biodiversity/8/I.jpg",
+            "./../../../../assets/biodiversity/8/II.jpg",
+            "./../../../../assets/biodiversity/8/III.jpg",
+            "./../../../../assets/biodiversity/8/IV.jpg",
+            "./../../../../assets/biodiversity/8/V.jpg",
+            "./../../../../assets/biodiversity/8/VI.jpg"
+        ]
+    },
+    {
+        "_id": 1636,
+        "title": "CARAGUATY, MISIONES",
+        "area": "25 has",
+        "super": "25 has",
+        "location": "Caraguaty, Provincia de Misiones, República de Argentina",
+        "price": 40000,
+        "page": 1,
+        "desc": "Chacra en Montecarlo de 25 has, en colonia Caraguaty a 14 km de ruta 12, con ingresado terrado a 3 km sobre arroyo, monte renoval y capuera. Apto uso para ganadero o yerbatero, 60000 dolares vale si se opta por 5 hectáreas de yerbal ya plantados, 80000 dolares si son 10 hectáreas plantadas de yerba mate",
+        "imgUrls": [
+            "./../../../../assets/biodiversity/9/I.jpeg",
+            "./../../../../assets/biodiversity/9/II.jpeg",
+            "./../../../../assets/biodiversity/9/III.jpg",
+            "./../../../../assets/biodiversity/9/IV.jpg",
+            "./../../../../assets/biodiversity/9/V.jpeg",
+            "./../../../../assets/biodiversity/9/VI.jpeg",
+            "./../../../../assets/biodiversity/9/VII.jpeg",
+            "./../../../../assets/biodiversity/9/VIII.jpeg",
+            "./../../../../assets/biodiversity/9/IX.jpeg",
+            "./../../../../assets/biodiversity/9/X.jpeg",
+            "./../../../../assets/biodiversity/9/XI.jpeg"
+        ]
+    },
+    {
+        "_id": 1553,
+        "title": "CAMPO ARROCERO Y GANADERO",
+        "area": "5526 has",
+        "super": "5526 has",
+        "location": "Ruta Nacional 12, Provincia de Misiones, República de Argentina",
+        "price": 14920200,
+        "page": 1,
+        "desc": "Campo sobre Ruta Nacional 12, cerca del Rio Paraná. Cuenta con 2000 ha para arroz o ganadería, siendo un campo alto. totalmente canalizado, con caminos. Todo apto para forestación pino o Euca.",
+        "imgUrls": [
+            "./../../../../assets/biodiversity/10/I.jpg",
+            "./../../../../assets/biodiversity/10/II.jpg",
+            "./../../../../assets/biodiversity/10/III.jpg",
+            "./../../../../assets/biodiversity/10/IV.jpg",
+            "./../../../../assets/biodiversity/10/V.jpg",
+            "./../../../../assets/biodiversity/10/VI.jpg",
+            "./../../../../assets/biodiversity/10/VII.jpg",
+            "./../../../../assets/biodiversity/10/VIII.jpg",
+            "./../../../../assets/biodiversity/10/IX.jpg",
+            "./../../../../assets/biodiversity/10/X.jpg",
+            "./../../../../assets/biodiversity/10/XI.jpg"
+        ]
+    },
+    {
+        "_id": 1561,
+        "title": "LORETO, MISIONES",
+        "area": "50 has",
+        "super": "50 has",
+        "location": "Ruta Nacional 12, Provincia de Misiones, República de Argentina",
+        "price": 85000,
+        "page": 1,
+        "desc": "Chacra de 50 has en Loreto, Provincia de Misiones. Cuenta con un excelente acceso, posee 35 has son de tierra colorada, 10 has de suelos de 6a. (Suelos aptos para plantación de pasturas y de forestación), tiene 3 has de suelo Pedregoso. Ubicada a 3 kms del Pueblo. Se entrega con 20 ha limpias como para plantar. Sin pino.",
+        "imgUrls": [
+            "./../../../../assets/biodiversity/11/I.jpeg",
+            "./../../../../assets/biodiversity/11/II.jpeg",
+            "./../../../../assets/biodiversity/11/III.jpeg",
+            "./../../../../assets/biodiversity/11/IV.jpeg",
+            "./../../../../assets/biodiversity/11/V.jpeg",
+            "./../../../../assets/biodiversity/11/VI.jpeg",
+            "./../../../../assets/biodiversity/11/VII.jpeg"
+        ]
+    },
+    {
+        "_id": 1543,
+        "title": "PARADA LEIS, POSADAS",
+        "area": "259 has",
+        "super": "259 has",
+        "location": "Parada Leis, Posadas, Provincia de Misiones, República de Argentina",
+        "price": 950000,
+        "page": 1,
+        "desc": "Campo ganadero forestal en venta 259 has con pastura y arboles. Más un arroyo. U$S 3500 dólares. Todo el predio alambrado. Sin otra mejora. Tierra colorada profunda en mas de 200 hectáreas.",
+        "imgUrls": [
+            "./../../../../assets/biodiversity/12/I.jpg",
+            "./../../../../assets/biodiversity/12/II.jpg",
+            "./../../../../assets/biodiversity/12/III.jpg",
+            "./../../../../assets/biodiversity/12/IV.jpg",
+            "./../../../../assets/biodiversity/12/V.jpg",
+            "./../../../../assets/biodiversity/12/VI.jpg"
+        ]
+    },
+    {
+        "_id": 1644,
+        "title": "TERRENOS, GUARANÍ OBERÁ",
+        "area": " 693 m²",
+        "super": " 693 m²",
+        "location": "Guaraní Oberá, Provincia de Misiones, República de Argentina",
+        "price": 325000,
+        "page": 1,
+        "desc": "3 lotes en Guaraní, Oberá, Provincia de Misiones .Medidas de los lotes 12, 60 x 55. Acceso a todos los servicios. A 7 cuadras de ruta 14.",
+        "imgUrls": [
+            "./../../../../assets/biodiversity/13/I.jpeg",
+            "./../../../../assets/biodiversity/13/II.jpeg",
+            "./../../../../assets/biodiversity/13/III.jpeg",
+            "./../../../../assets/biodiversity/13/IV.jpeg"
+        ]
+    },
+    {
+        "_id": 1743,
+        "title": "CUADRAS DEL MATIL, CANDELARIA, MNES",
+        "area": "1650 m²",
+        "super": "1650 m²",
+        "location": "Cuadras del Mastil, Candelaria, Provincia de Misiones, República de Argentina",
+        "price": 700000,
+        "page": 1,
+        "desc": "Terreno con excelente Ubicación, a 3 cuadras del centro de Candelaria. Cuenta con acceso a todos los servicios, Luz, agua, Internet a pasos del Colegio secundario, y del Hospital. fácil acceso, Medidas de 33 de frente por 55 de fondo",
+        "imgUrls": [
+            "./../../../../assets/biodiversity/14/I.jpeg",
+            "./../../../../assets/biodiversity/14/II.jpeg",
+            "./../../../../assets/biodiversity/14/III.jpeg",
+            "./../../../../assets/biodiversity/14/IV.jpeg",
+            "./../../../../assets/biodiversity/14/V.jpeg",
+            "./../../../../assets/biodiversity/14/VI.jpeg",
+            "./../../../../assets/biodiversity/14/VII.jpeg",
+            "./../../../../assets/biodiversity/14/IX.jpeg",
+            "./../../../../assets/biodiversity/14/X.jpeg",
+            "./../../../../assets/biodiversity/14/XI.jpeg"
+        ]
+    }
+]
