@@ -6,12 +6,11 @@ import { Property } from '../../interfaces/property.interface';
   templateUrl: './property-details.component.html',
   styleUrl: './property-details.component.scss'
 })
-export class PropertyDetailsComponent implements AfterViewInit {
+export class PropertyDetailsComponent {
 
   @Input() propertyDetails!: Property | undefined;
 
-  ngAfterViewInit(): void {
-
-  }
 }
+
+
 

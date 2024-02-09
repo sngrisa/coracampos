@@ -28,13 +28,14 @@ import { CardPropertyComponent } from './properties/card-property/card-property.
 import { PropertyService } from './properties/services/property.service';
 import { PropertyComponent } from './properties/property/property.component';
 import { PropertyDetailsComponent } from './properties/property/property-details/property-details.component';
-import { AppPropertyRoutingModule } from './properties/app-propertyRouting.module';
 import { CarrouselImgsComponent } from './properties/property/carrousel-imgs/carrousel-imgs.component';
 import { HeadComponent } from './properties/property/head/head.component';
-import { DetailsTechComponent } from './properties/property/details-tech/details-tech.component';
 import { BiodiversityComponent } from './biodiversity/biodiversity.component';
 import { BiodiversitySingleComponent } from './biodiversity/biodiversity-single/biodiversity-single.component';
 import { CardsBioComponent } from './biodiversity/cards/cardsbio.component';
+import { AppPageRoutingModule } from './pages-routing.module';
+import { CarrouselBioComponent } from './biodiversity/biodiversity-single/carrousel-bio/carrousel-bio.component';
+import { BiodiversityDetailsComponent } from './biodiversity/biodiversity-single/biodiversity-details/biodiversity-details.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,6 @@ import { CardsBioComponent } from './biodiversity/cards/cardsbio.component';
     HeadComponent,
     ContactComponent,
     TextComponent,
-    DetailsTechComponent,
     ImageComponent,
     FormComponent,
     NewsComponent,
@@ -67,20 +67,25 @@ import { CardsBioComponent } from './biodiversity/cards/cardsbio.component';
     PropertyDetailsComponent,
     CarrouselImgsComponent,
     BiodiversityComponent,
+    BiodiversityDetailsComponent,
     BiodiversitySingleComponent,
-    CardsBioComponent
+    CardsBioComponent,
+    CarrouselBioComponent
   ],
   imports: [
     CommonModule,
     ReactiveFormsModule,
     RouterModule,
-    AppPropertyRoutingModule
+    AppPageRoutingModule
   ],
   providers: [
     PropertyService
   ],
   exports: [
     AboutComponent,
+    ContactComponent,
+    PropertyComponent,
+    PropertiesComponent
   ]
 })
 export class PagesModule { }

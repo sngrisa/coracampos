@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Params } from '@angular/router';
 import { BiodiversityService } from '../services/biodiversity.service';
+import { BiodiversityCard } from '../interfaces/bioDiversity.interface';
 
 @Component({
   selector: 'app-biodiversity-single',
@@ -9,10 +10,15 @@ import { BiodiversityService } from '../services/biodiversity.service';
 })
 export class BiodiversitySingleComponent implements OnInit {
 
+  biodiversityDetails!: BiodiversityCard | undefined;
+
   constructor(private activatedRouter: ActivatedRoute, private bioDiversityService: BiodiversityService) { }
 
   ngOnInit(): void {
-    this.activatedRouter;
+    event?.preventDefault();
+    let id: number | string | any = this.activatedRouter.snapshot.paramMap.get('id');
+    this.bioDiversityService.getBioDiversityProperties().subscribe((bioDetails: BiodiversityCard[]) => {
+      return this.biodiversityDetails = bioDetails.find((bio: BiodiversityCard) => bio._id == id);
+    })
   }
-
 }

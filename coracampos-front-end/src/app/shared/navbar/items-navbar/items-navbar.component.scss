@@ -1,7 +1,10 @@
-a, i{
+a,
+i {
     color: whitesmoke !important;
 }
 
-#item{
-    margin-right: 10px;
+@media screen and (min-width: 600px) {
+    .text-item {
+        display: none !important;
+    }
 }

@@ -6,4 +6,5 @@ export interface BiodiversityCard {
     imgUrls: string;
     url: string;
     price: number;
+    desc: string;
 }

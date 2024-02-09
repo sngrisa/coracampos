@@ -1,1 +1,12 @@
-<p>biodiversity-single works!</p>
+<div class="container section pb-5">
+    <div class="row text-center mt-5">
+        <div class="col-lg-7">
+            <div class="card">
+                <app-carrousel-bio [bioDetails]="biodiversityDetails"></app-carrousel-bio>
+            </div>
+        </div>
+        <div class="col-lg-5">
+            <app-biodiversity-details [bioDetails]="biodiversityDetails"></app-biodiversity-details>
+        </div>
+    </div>
+</div>

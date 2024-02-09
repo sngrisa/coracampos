@@ -29,9 +29,15 @@ export class FooterComponent {
     },
     {
       id: 4,
+      icon: "bi bi-houses-fill",
+      name: "Hogares",
+      url: "/properties"
+    },
+    {
+      id: 5,
       icon: "bi bi-table",
       name: "Biodiversidad",
-      url: "/biodiversity"
+      url: "/properties/bio"
     },
   ]
 

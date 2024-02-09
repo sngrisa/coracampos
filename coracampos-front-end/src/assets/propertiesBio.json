@@ -266,9 +266,67 @@
             "./../../../../assets/biodiversity/14/V.jpeg",
             "./../../../../assets/biodiversity/14/VI.jpeg",
             "./../../../../assets/biodiversity/14/VII.jpeg",
+            "./../../../../assets/biodiversity/14/VIII.jpeg",
             "./../../../../assets/biodiversity/14/IX.jpeg",
             "./../../../../assets/biodiversity/14/X.jpeg",
             "./../../../../assets/biodiversity/14/XI.jpeg"
+        ]
+    },
+    {
+        "_id": 1798,
+        "title": "SANTO PIPO, MISIONES",
+        "price": 420000,
+        "page": 1,
+        "area": "70 has",
+        "super": "70 has",
+        "location": "Santo Pipo, Provincia de Misiones, República de Argentina",
+        "baths": 2,
+        "beds": 4,
+        "garage": 0,
+        "ambientes": 9,
+        "desc": "Propiedad que esta localizada a poco km del pueblo de Santo Pipó, Provincia de Misiones, República de Argentina,posee un arroyo con un buen caudal, tiene 10 has de pinos listos para el corte, campo para la pastura, suelo fertil en su totalidad. Apto para desarrollo turistico, productivo, etc..",
+        "imgUrls": [
+            "./../../../../assets/biodiversity/15/I.jpg",
+            "./../../../../assets/biodiversity/15/II.jpg",
+            "./../../../../assets/biodiversity/15/III.jpg",
+            "./../../../../assets/biodiversity/15/IV.jpg",
+            "./../../../../assets/biodiversity/15/V.jpg",
+            "./../../../../assets/biodiversity/15/VI.jpg",
+            "./../../../../assets/biodiversity/15/I.jpeg",
+            "./../../../../assets/biodiversity/15/II.jpg",
+            "./../../../../assets/biodiversity/15/III.jpg",
+            "./../../../../assets/biodiversity/15/IV.jpg",
+            "./../../../../assets/biodiversity/15/V.jpg",
+            "./../../../../assets/biodiversity/15/VI.jpg",
+            "./../../../../assets/biodiversity/15/VII.jpeg",
+            "./../../../../assets/biodiversity/15/VIII.jpg",
+            "./../../../../assets/biodiversity/15/IX.jpg",
+            "./../../../../assets/biodiversity/15/X.jpg",
+            "./../../../../assets/biodiversity/15/XI.jpg",
+            "./../../../../assets/biodiversity/15/XII.jpg",
+            "./../../../../assets/biodiversity/15/XIII.jpg"
+        ]
+    },
+    {
+        "_id": 1164,
+        "title": "POSADAS, MISIONES",
+        "price": 90000,
+        "page": 1,
+        "area": "6000 m²",
+        "super": "6000 m²",
+        "location": "Posadas, Provincia de Misiones, República de Argentina",
+        "baths": 1,
+        "beds": 2,
+        "garage": 1,
+        "ambientes": 4,
+        "desc": "Quinta de 6 hectaréas, localizada en Posadas, Misiones, cercado al barrio San Isidro. Cuenta con una perforación de 130 mts, viene con un gran parque cerca de un arroyo.",
+        "imgUrls": [
+            "./../../../../assets/biodiversity/16/I.jpg",
+            "./../../../../assets/biodiversity/16/II.jpg",
+            "./../../../../assets/biodiversity/16/III.jpg",
+            "./../../../../assets/biodiversity/16/IV.jpg",
+            "./../../../../assets/biodiversity/16/V.jpg",
+            "./../../../../assets/biodiversity/16/VI.jpg"
         ]
     }
 ]

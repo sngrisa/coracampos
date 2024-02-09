@@ -11,7 +11,7 @@ export class GridPropertiesComponent implements OnInit {
 
   constructor(private propertyService: PropertyService) { }
 
-  properties: Property[] = [];
+  properties!: Property[];
 
   ngOnInit(): void {
     this.propertyService.getProperties().subscribe((data: Property[]) => this.properties = data);

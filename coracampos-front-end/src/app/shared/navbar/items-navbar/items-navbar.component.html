@@ -1,4 +1,6 @@
 <li class="nav-item">
-    <a class="nav-link" [routerLink]="itemNavbar.url" routerLinkActive="active-link"><span [class]="itemNavbar.icon"
-            id="item"></span>{{itemNavbar.name}}</a>
+    <a class="nav-link" [routerLink]="itemNavbar.url" routerLinkActive="active-link"><i [class]="itemNavbar.icon"
+            id="item"></i>
+        <p class="text-item">{{itemNavbar.name}}</p>
+    </a>
 </li>

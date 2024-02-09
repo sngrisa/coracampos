@@ -1,4 +1,4 @@
-<div class="card-box-a card-shadow" [routerLink]="['/properties/', ''+property._id+'']">
+<div class="card-box-a card-shadow" [routerLink]="['/properties', property._id]">
   <div class="img-box-a">
     <img [src]="property.imgUrls[0]" [alt]="property.desc" class="img-a img-fluid">
   </div>
@@ -6,14 +6,14 @@
     <div class="card-overlay-a-content">
       <div class="card-header-a">
         <h2 class="card-title-a">
-          <a href="#">{{property.title}}</a>
+          <a [routerLink]="['/properties', property._id]">{{property.title}}</a>
         </h2>
       </div>
       <div class="card-body-a">
         <div class="price-box d-flex">
           <span class="price-a">Renta | $ {{property.price}}</span>
         </div>
-        <a [routerLink]="['/properties/', ''+property._id+'']" class="link-a">Más información
+        <a [routerLink]="['/properties', property._id]" class="link-a">Más información
           <span class="bi bi-chevron-right"></span>
         </a>
       </div>

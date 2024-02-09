@@ -8,17 +8,30 @@ import Swiper from 'swiper';
   templateUrl: './carrousel-imgs.component.html',
   styleUrl: './carrousel-imgs.component.scss'
 })
+
+
+
+
 export class CarrouselImgsComponent implements OnInit {
 
   @Input() property!: Property | undefined;
 
+
+
+
   ngOnInit(): void {
-    new Swiper('#property-single-carousel', {
+    let countImgs: number | any = this.property?.imgUrls.length;
+    new Swiper('#biodiversity-single-carousel', {
       speed: 600,
       loop: true,
+      slidesPerView: 1,
+      spaceBetween: 0,
+      slidesPerGroup: 1,
+      slidesPerGroupAuto: true,
       autoplay: {
         delay: 5000,
-        disableOnInteraction: false
+        disableOnInteraction: false,
+        reverseDirection: true,
       },
       pagination: {
         el: '.property-single-carousel-pagination',

@@ -16,7 +16,7 @@ export class ItemCarrouselComponent implements AfterViewInit {
       textdesc: "¿Estás buscando invertir?  ¡Tenemos varias Opciones que te van a interesar!",
       textButton: "Más información",
       background: "./../../../../../assets/carrousel/Image1.jpeg",
-      url: "/properties"
+      url: "/properties/properties"
     },
     {
       title: "¿Estas buscando invertir?",
@@ -30,7 +30,7 @@ export class ItemCarrouselComponent implements AfterViewInit {
       textdesc: "¡Colaboramos con organizaciones ambientales locales para conservar y restaurar áreas naturales cercanas a nuestras propiedades, preservando así la diversidad de especies vegetales y animales.!",
       textButton: "Más Información",
       background: "./../../../../../assets/carrousel/Image6.jpg",
-      url: "/biodiversity"
+      url: "/properties/bio"
     }
   ];
 

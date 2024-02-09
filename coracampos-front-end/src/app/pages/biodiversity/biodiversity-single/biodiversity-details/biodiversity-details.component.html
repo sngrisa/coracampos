@@ -1,0 +1,25 @@
+<h2 class="heading text-primary pt-5">
+    <h2 class="title-d text-center"><i class="bi bi-geo-alt-fill text-success"></i> {{bioDetails?.title}}</h2>
+</h2>
+<h6 class="meta"><i class="bi bi-globe-europe-africa text-primary"></i> {{bioDetails?.location}} -
+    {{bioDetails?.area}}</h6>
+<hr>
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-content">
+            <div class="card-body">
+                <div class="media d-flex">
+                    <div class="align-self-center text-center">
+                        <h5 class="text-success"><i class="bi bi-cash-stack mr-3"></i>Precio:</h5>
+                    </div>
+                    <div class="media-body text-right">
+                        <h3>${{bioDetails?.price}} </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<h3 class="title-d text-left text-center"><i class="bi bi-clipboard2-fill text-success "></i> Descripción</h3>
+<hr>
+<h6 class="text-black-50">{{bioDetails?.desc}}</h6>

@@ -28,7 +28,7 @@
                         </form>
                     </div>
                 </div>
-                <div class="col-sm-4" *ngFor="let biodiversityCard of cardsBio">
+                <div class="col-sm-4" *ngFor="let biodiversityCard of cardsBio" [routerLink]="biodiversityCard.url">
                     <app-cards-bio [biodiversityCard]="biodiversityCard"></app-cards-bio>
                 </div>
             </div>
