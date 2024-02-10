@@ -49,7 +49,7 @@ export class NavbarComponent {
     {
       id: "4",
       icon: "bi bi-houses-fill",
-      name: "Hogares",
+      name: "Propiedades",
       url: "/properties"
     },
     {

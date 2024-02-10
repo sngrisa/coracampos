@@ -11,14 +11,12 @@ const routes: Routes = [
     component: PropertiesComponent,
     children: [
       { path: 'properties/:id', component: PropertyComponent },
-      { path: '**', redirectTo: 'properties' }
     ]
   },
   {
     path: "bio", component: BiodiversityComponent,
     children: [
       { path: "bio/:id", component: BiodiversitySingleComponent },
-      { path: '**', redirectTo: 'bio' }
     ]
   },
 ];

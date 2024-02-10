@@ -1,8 +1,8 @@
 [
     {
         "_id": 1786,
-        "area": "25 ha",
-        "super": "25 ha",
+        "area": "25 has",
+        "super": "25 has",
         "title": "CERRO CORÁ, MNES",
         "price": 90000,
         "location": "Cerro Corá, Provincia de Misiones, República de Argentina",
@@ -19,13 +19,13 @@
     },
     {
         "_id": 1310,
-        "area": "29 ha",
-        "super": "29 ha",
+        "area": "29 has",
+        "super": "29 has",
         "title": "GOBERNADOR ROCA, MISIONES",
         "price": 60000,
         "location": "Gobernador Roca, Provincia de Misiones, República de Argentina",
         "page": 1,
-        "desc": "La misma esta ubicada a 500 metros de la Ruta. Cuenta con 4 ha de Yerba Mate en producción y 15 ha de monte nativo.",
+        "desc": "La misma esta ubicada a 500 metros de la Ruta. Cuenta con 4 has de Yerba Mate en producción y 15 has de monte nativo.",
         "imgUrls": [
             "./../../../../assets/biodiversity/2/I.jpg",
             "./../../../../assets/biodiversity/2/II.jpg",
@@ -37,8 +37,8 @@
     },
     {
         "_id": 999,
-        "area": "478 ha",
-        "super": "478 ha",
+        "area": "478 has",
+        "super": "478 has",
         "title": "VIRASORO, CORRIENTES",
         "price": 2000000,
         "location": "Virasoro, Provincia de Corrientes, República de Argentina",
@@ -59,7 +59,7 @@
         "baths": 7,
         "title": "EL DORADO, MISIONES",
         "area": "400 m²",
-        "super": "21 ha",
+        "super": "21 has",
         "ambientes": 0,
         "location": "El Dorado, Provincia de Misiones, República de Argentina",
         "price": 300000,
@@ -76,8 +76,8 @@
     {
         "_id": 1377,
         "title": "CAMPO RAMÓN, MISIONES",
-        "area": "25 ha",
-        "super": "25 ha",
+        "area": "25 has",
+        "super": "25 has",
         "price": 11350,
         "location": "Villa Bonita, Provincia de Misiones, República de Argentina",
         "page": 1,

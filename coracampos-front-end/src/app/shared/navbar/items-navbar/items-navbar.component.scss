@@ -1,6 +1,11 @@
 a,
 i {
     color: whitesmoke !important;
+    text-align: center !important;
+}
+
+a:hover {
+    color: lightblue !important;
 }
 
 @media screen and (min-width: 600px) {

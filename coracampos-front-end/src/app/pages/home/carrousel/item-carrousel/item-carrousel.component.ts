@@ -16,7 +16,7 @@ export class ItemCarrouselComponent implements AfterViewInit {
       textdesc: "¿Estás buscando invertir?  ¡Tenemos varias Opciones que te van a interesar!",
       textButton: "Más información",
       background: "./../../../../../assets/carrousel/Image1.jpeg",
-      url: "/properties/properties"
+      url: "/properties"
     },
     {
       title: "¿Estas buscando invertir?",
