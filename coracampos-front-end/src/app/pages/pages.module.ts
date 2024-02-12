@@ -22,26 +22,11 @@ import { DetailsCoraComponent } from './contact/details-cora/details-cora.compon
 import { MapCoraComponent } from './contact/map-cora/map-cora.component';
 import { TextCoraComponent } from './contact/text-cora/text-cora.component';
 import { SocialItemsComponent } from './contact/details-cora/social-items/social-items.component';
-import { PropertiesComponent } from './properties/properties.component';
-import { GridPropertiesComponent } from './properties/grid-properties/grid-properties.component';
-import { CardPropertyComponent } from './properties/card-property/card-property.component';
-import { PropertyService } from './properties/services/property.service';
-import { PropertyComponent } from './properties/property/property.component';
-import { PropertyDetailsComponent } from './properties/property/property-details/property-details.component';
-import { CarrouselImgsComponent } from './properties/property/carrousel-imgs/carrousel-imgs.component';
-import { HeadComponent } from './properties/property/head/head.component';
-import { BiodiversityComponent } from './biodiversity/biodiversity.component';
-import { BiodiversitySingleComponent } from './biodiversity/biodiversity-single/biodiversity-single.component';
-import { CardsBioComponent } from './biodiversity/cards/cardsbio.component';
-import { AppPageRoutingModule } from './pages-routing.module';
-import { CarrouselBioComponent } from './biodiversity/biodiversity-single/carrousel-bio/carrousel-bio.component';
-import { BiodiversityDetailsComponent } from './biodiversity/biodiversity-single/biodiversity-details/biodiversity-details.component';
 
 @NgModule({
   declarations: [
     HomeComponent,
     AboutComponent,
-    HeadComponent,
     ContactComponent,
     TextComponent,
     ImageComponent,
@@ -60,32 +45,17 @@ import { BiodiversityDetailsComponent } from './biodiversity/biodiversity-single
     MapCoraComponent,
     TextCoraComponent,
     SocialItemsComponent,
-    PropertiesComponent,
-    GridPropertiesComponent,
-    CardPropertyComponent,
-    PropertyComponent,
-    PropertyDetailsComponent,
-    CarrouselImgsComponent,
-    BiodiversityComponent,
-    BiodiversityDetailsComponent,
-    BiodiversitySingleComponent,
-    CardsBioComponent,
-    CarrouselBioComponent
   ],
   imports: [
     CommonModule,
     ReactiveFormsModule,
     RouterModule,
-    AppPageRoutingModule
   ],
   providers: [
-    PropertyService
   ],
   exports: [
     AboutComponent,
     ContactComponent,
-    PropertyComponent,
-    PropertiesComponent
   ]
 })
 export class PagesModule { }

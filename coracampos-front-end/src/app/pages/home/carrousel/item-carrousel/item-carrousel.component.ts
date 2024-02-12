@@ -30,7 +30,7 @@ export class ItemCarrouselComponent implements AfterViewInit {
       textdesc: "¡Colaboramos con organizaciones ambientales locales para conservar y restaurar áreas naturales cercanas a nuestras propiedades, preservando así la diversidad de especies vegetales y animales.!",
       textButton: "Más Información",
       background: "./../../../../../assets/carrousel/Image6.jpg",
-      url: "/properties/bio"
+      url: "/bio"
     }
   ];
 

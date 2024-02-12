@@ -56,7 +56,7 @@ export class NavbarComponent {
       id: "5",
       icon: "bi bi-table",
       name: "Biodiversidad",
-      url: "/properties/bio"
+      url: "/bio"
     },
   ];
 
