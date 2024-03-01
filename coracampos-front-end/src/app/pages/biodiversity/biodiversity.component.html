@@ -1,38 +1,44 @@
 <main id="main">
-    <section class="intro-single">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-lg-8">
-                    <div class="title-single-box">
-                        <h1 class="title-single">Nuestro compromiso con la biodiversidad</h1>
-                        <span class="color-text-a">Incorporamos áreas verdes y hábitats naturales en nuestros
-                            proyectos inmobiliarios para proporcionar refugio y
-                            alimento a la fauna local.</span>
-                    </div>
-                </div>
-            </div>
+  <section class="intro-single">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-8">
+          <div class="title-single-box">
+            <h1 class="title-single">Nuestro compromiso con la biodiversidad</h1>
+            <span class="color-text-a">Incorporamos áreas verdes y hábitats naturales en nuestros
+              proyectos inmobiliarios para proporcionar refugio y
+              alimento a la fauna local.</span>
+          </div>
         </div>
-    </section>
-    <section class="property-grid grid">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="grid-option">
-                        <form>
-                            <select class="custom-select">
-                                <option selected>Todas las opciones</option>
-                                <option value="1">Desde la más antigua a la más nueva</option>
-                                <option value="2">Con el menor precio</option>
-                                <option value="3">Con el mayor precio</option>
-                            </select>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-sm-4" *ngFor="let biodiversityCard of cardsBio" [routerLink]="biodiversityCard.url">
-                    <app-cards-bio [biodiversityCard]="biodiversityCard"></app-cards-bio>
-                </div>
-            </div>
-            <!-- <div class="row">
+      </div>
+    </div>
+  </section>
+  <section class="property-grid grid">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="grid-option">
+            <form>
+              <select class="custom-select">
+                <option selected>Todas las opciones</option>
+                <option value="1">Desde la más antigua a la más nueva</option>
+                <option value="2">Con el menor precio</option>
+                <option value="3">Con el mayor precio</option>
+              </select>
+            </form>
+          </div>
+        </div>
+        <div class="col-sm-4" *ngFor="let biodiversityCard of cardsBio" [routerLink]="biodiversityCard.url">
+          <app-cards-bio [biodiversityCard]="biodiversityCard"></app-cards-bio>
+        </div>
+      </div>
+      <div class="container text-center">
+        <a [href]="urlMercadoLibre" class="btn btn-success text-white btn-block pb-2 pt-2"><i
+            class="bi bi-node-plus-fill"></i>
+          Ver
+          más propiedades</a>
+      </div>
+      <!-- <div class="row">
                 <div class="col-sm-12">
                     <nav class="pagination-a">
                         <ul class="pagination justify-content-end">
@@ -59,6 +65,6 @@
                     </nav>
                 </div>
             </div> -->
-        </div>
-    </section>
+    </div>
+  </section>
 </main>

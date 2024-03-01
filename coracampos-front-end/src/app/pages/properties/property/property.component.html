@@ -1,13 +1,13 @@
 <div class="container section pb-5">
-    <app-head [detail]="propertyDetails"></app-head>
-    <div class="row text-center mt-5">
-        <div class="col-lg-7">
-            <div class="card">
-                <app-carrousel-imgs [property]="propertyDetails"></app-carrousel-imgs>
-            </div>
-        </div>
-        <div class="col-lg-5">
-            <app-property-details [propertyDetails]="propertyDetails"></app-property-details>
-        </div>
+  <app-head [detail]="propertyDetails"></app-head>
+  <div class="row text-center">
+    <div class="col-lg-7">
+      <div class="card">
+        <app-carrousel-imgs [property]="propertyDetails"></app-carrousel-imgs>
+      </div>
     </div>
+    <div class="col-lg-5">
+      <app-property-details [propertyDetails]="propertyDetails"></app-property-details>
+    </div>
+  </div>
 </div>

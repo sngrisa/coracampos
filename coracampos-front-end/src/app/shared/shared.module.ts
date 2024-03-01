@@ -9,7 +9,7 @@ import { ContactDetailsComponent } from './footer/contact-details/contact-detail
 import { DetailsComponent } from './footer/contact-details/details/details.component';
 import { MenuItemsComponent } from './footer/menu-items/menu-items.component';
 import { LogoFooterComponent } from './footer/logoFooter/logo-footer.component';
-import { SearchComponent } from './navbar/search/search.component';
+import { SearchComponent } from './navbar/search/search.component'
 
 
 
@@ -24,7 +24,7 @@ import { SearchComponent } from './navbar/search/search.component';
     DetailsComponent,
     MenuItemsComponent,
     LogoFooterComponent,
-    SearchComponent
+    SearchComponent,
   ],
   imports: [
     CommonModule,
@@ -33,7 +33,7 @@ import { SearchComponent } from './navbar/search/search.component';
   exports: [
     NavbarComponent,
     FooterComponent,
-    ContactDetailsComponent
+    ContactDetailsComponent,
   ],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA

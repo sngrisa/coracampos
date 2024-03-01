@@ -14,10 +14,32 @@ export class CarrouselBioComponent implements OnInit {
   ngOnInit(): void {
     new Swiper('#property-single-carousel', {
       speed: 600,
-      loop: true,
+      spaceBetween: 0,
+      loop: false,
+      slidesPerView: 1,
+      slidesPerGroup: 1,
       autoplay: {
         delay: 5000,
-        disableOnInteraction: false
+        disableOnInteraction: false,
+        reverseDirection: true,
+      },
+      on: {
+        init: function loopBagFix(swiper) {
+          /* 1. Add a copy of the slides */
+          const slides = swiper.slides
+          const wrapper = swiper.wrapperEl
+          slides.forEach((slide) => { wrapper.append(slide.cloneNode(true)) })
+
+          /* 2. Remove the duplicated pagination */
+          setTimeout(() => {
+            const paginations = swiper.pagination.bullets
+            paginations.forEach((pagination, index) => {
+              if (index > (paginations.length / 2) - 1) {
+                pagination.remove()
+              }
+            })
+          }, 100)
+        },
       },
       pagination: {
         el: '.property-single-carousel-pagination',

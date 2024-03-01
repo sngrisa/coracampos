@@ -7,5 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PropertiesComponent {
 
+  urlMercadoLibre: string = "https://inmuebles.mercadolibre.com.ar/_CustId_165236308";
+
 
 }

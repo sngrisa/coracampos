@@ -10,30 +10,32 @@ import { HeadComponent } from './property/head/head.component';
 import { CarrouselImgsComponent } from './property/carrousel-imgs/carrousel-imgs.component';
 import { AppPropertiesRoutingModule } from './properties-routing.module';
 import { RouterModule } from '@angular/router';
+import { PagesModule } from '../pages.module';
 
 
 @NgModule({
-    declarations: [
-        PropertyComponent,
-        PropertyDetailsComponent,
-        PropertiesComponent,
-        GridPropertiesComponent,
-        CardPropertyComponent,
-        HeadComponent,
-        CarrouselImgsComponent,
-        CardPropertyComponent
-    ],
-    imports: [
-        CommonModule,
-        AppPropertiesRoutingModule,
-        RouterModule
-    ],
-    providers: [
-        PropertyService,
-    ],
-    exports: [
-        PropertyComponent,
-        PropertiesComponent
-    ]
+  declarations: [
+    PropertyComponent,
+    PropertyDetailsComponent,
+    PropertiesComponent,
+    GridPropertiesComponent,
+    CardPropertyComponent,
+    HeadComponent,
+    CarrouselImgsComponent,
+    CardPropertyComponent
+  ],
+  imports: [
+    CommonModule,
+    AppPropertiesRoutingModule,
+    RouterModule,
+    PagesModule
+  ],
+  providers: [
+    PropertyService,
+  ],
+  exports: [
+    PropertyComponent,
+    PropertiesComponent
+  ]
 })
 export class PropertiesModule { }

@@ -5,23 +5,22 @@ import { BiodiversitySingleComponent } from './biodiversity-single/biodiversity-
 
 
 const routes: Routes = [
-    {
-        path: '',
-        component: BiodiversityComponent
-    },
-    {
-        path: ':id',
-        component: BiodiversitySingleComponent,
-    },
-    {
-        path: '**',
-        redirectTo: '',
-        pathMatch: 'full'
-    }
+  {
+    path: '',
+    component: BiodiversityComponent
+  },
+  {
+    path: ':id',
+    component: BiodiversitySingleComponent,
+  },
+  {
+    path: '**',
+    redirectTo: '',
+    pathMatch: 'full'
+  }
 ];
-
 @NgModule({
-    imports: [RouterModule.forChild(routes)],
-    exports: [RouterModule],
+  imports: [RouterModule.forChild(routes)],
+  exports: [RouterModule],
 })
 export class AppBioRoutingModule { }

@@ -20,6 +20,7 @@ app.use((req, res, next) => {
 
 app.use('/properties', require('./routes/property.router.js'));
 app.use('/users', require('./routes/users.router.js'));
+app.use('/bio', require('./routes/bio.router.js'));
 
 app.listen(port, () => {
   console.log(`Escuchando en puerto ${port}`);

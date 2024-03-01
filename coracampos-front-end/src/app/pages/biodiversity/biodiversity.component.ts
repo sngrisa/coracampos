@@ -9,6 +9,8 @@ import { BiodiversityCard } from './interfaces/bioDiversity.interface';
 })
 export class BiodiversityComponent implements OnInit {
 
+  urlMercadoLibre: string = "https://inmuebles.mercadolibre.com.ar/_CustId_165236308";
+
   cardsBio!: BiodiversityCard[];
 
   constructor(private bioDiversityService: BiodiversityService) { }

@@ -1,28 +1,28 @@
-<div class="card-box-a card-shadow" [routerLink]="['/properties/bio', biodiversityCard._id]">
-    <div class="img-box-a">
-        <img [src]="biodiversityCard.imgUrls[0]" [alt]="biodiversityCard.title" class="img-a img-fluid">
-    </div>
-    <div class="card-overlay">
-        <div class="card-overlay-a-content">
-            <div class="card-header-a">
-                <h2 class="card-title-a">
-                    <a [routerLink]="biodiversityCard.url">{{biodiversityCard.title}}</a>
-                </h2>
-            </div>
-            <div class="card-body-a">
-                <div class="price-box d-flex">
-                    <span class="price-a">Rentar | {{biodiversityCard.price | currency:'USD'}}</span>
-                </div>
-            </div>
-            <div class="card-footer-a">
-                <ul class="card-info d-flex justify-content-around">
-                    <li>
-                        <h4 class="card-info-title text-center">Área</h4>
-                        <span>{{biodiversityCard.area}}
-                        </span>
-                    </li>
-                </ul>
-            </div>
+<div class="card-box-a card-shadow" [routerLink]="['/bio', biodiversityCard._id]">
+  <div class="img-box-a">
+    <img [src]="biodiversityCard.imgUrls[0]" [alt]="biodiversityCard.title" class="img-a img-fluid">
+  </div>
+  <div class="card-overlay">
+    <div class="card-overlay-a-content">
+      <div class="card-header-a">
+        <h2 class="card-title-a">
+          <a [routerLink]="biodiversityCard.url">{{biodiversityCard.title}}</a>
+        </h2>
+      </div>
+      <div class="card-body-a">
+        <div class="price-box d-flex">
+          <span class="price-a">Rentar | {{biodiversityCard.price | currency:'USD'}}</span>
         </div>
+      </div>
+      <div class="card-footer-a">
+        <ul class="card-info d-flex justify-content-around">
+          <li>
+            <h4 class="card-info-title text-center">Área</h4>
+            <span>{{biodiversityCard.area}}
+            </span>
+          </li>
+        </ul>
+      </div>
     </div>
+  </div>
 </div>
