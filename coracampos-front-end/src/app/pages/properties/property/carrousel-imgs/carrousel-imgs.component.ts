@@ -21,7 +21,7 @@ export class CarrouselImgsComponent implements OnInit {
     new Swiper('#biodiversity-single-carousel', {
       speed: 600,
       spaceBetween: 0,
-      loop: false,
+      loop: true,
       slidesPerView: 1,
       slidesPerGroup: 1,
       autoplay: {

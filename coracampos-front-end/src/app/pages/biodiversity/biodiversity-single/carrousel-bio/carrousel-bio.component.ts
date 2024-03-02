@@ -15,7 +15,7 @@ export class CarrouselBioComponent implements OnInit {
     new Swiper('#property-single-carousel', {
       speed: 600,
       spaceBetween: 0,
-      loop: false,
+      loop: true,
       slidesPerView: 1,
       slidesPerGroup: 1,
       autoplay: {
