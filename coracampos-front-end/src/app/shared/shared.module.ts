@@ -9,9 +9,9 @@ import { ContactDetailsComponent } from './footer/contact-details/contact-detail
 import { DetailsComponent } from './footer/contact-details/details/details.component';
 import { MenuItemsComponent } from './footer/menu-items/menu-items.component';
 import { LogoFooterComponent } from './footer/logoFooter/logo-footer.component';
-import { SearchComponent } from './navbar/search/search.component'
-
-
+import { SearchComponent } from './navbar/search/search.component';
+import { WhatsappComponent } from './whatsapp/whatsapp.component';
+import { NgxWhatsappModule } from "@ngodings/ngx-whatsapp";
 
 
 @NgModule({
@@ -25,15 +25,18 @@ import { SearchComponent } from './navbar/search/search.component'
     MenuItemsComponent,
     LogoFooterComponent,
     SearchComponent,
+    WhatsappComponent,
   ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    NgxWhatsappModule
   ],
   exports: [
     NavbarComponent,
     FooterComponent,
     ContactDetailsComponent,
+    WhatsappComponent
   ],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA

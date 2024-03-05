@@ -26,7 +26,7 @@ register();
     HttpClientModule,
     PagesModule,
     PropertiesModule,
-    BiodiversityModule
+    BiodiversityModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
